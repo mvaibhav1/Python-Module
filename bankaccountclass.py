@@ -1,4 +1,4 @@
-class BankAcoount() :
+class BankAccount() :
     def __init__(self,name,balance=0):
         self.account_holder=name
         self.balance=balance
@@ -17,8 +17,8 @@ class BankAcoount() :
         else:
             print("Insufficient Funds")
 
-p1=BankAcoount("Sam")
-p2=BankAcoount("Vaibhav",1000)
+p1=BankAccount("Sam")
+p2=BankAccount("Vaibhav",1000)
 p1.statement()
 p2.statement()
 p1.deposit(500)
