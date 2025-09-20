@@ -1,0 +1,21 @@
+import math
+
+number=float(input("enter the number : "))
+number2=float(input("enter the number 2 : "))
+
+print(math.floor(number))
+print((math.ceil(number)))
+print((math.fabs(number)))
+print((math.factorial(int(number))))
+print((math.log2(number)))
+print((math.log10(number)))
+print((math.fmod(number,number2)))
+print((math.pow(number,number2)))
+print((math.sqrt(number)))
+print((math.trunc(number)))
+print((math.sin(number)))
+print((math.cos(number)))
+print((math.tan(number)))
+print((math.degrees(number)))
+print((math.radians(number)))
+print((math.pi))
