@@ -1,0 +1,1 @@
+print("its in ",__name__)
